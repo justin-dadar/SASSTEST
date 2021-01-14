@@ -1,0 +1,18 @@
+@mixin d-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin d-flex-wrap($method) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: $method;
+}

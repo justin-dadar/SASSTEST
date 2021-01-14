@@ -1,0 +1,24 @@
+.top-nav {
+  @include d-flex-between;
+  padding: 2rem 4rem;
+  img {
+    height: 5rem;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      margin-left: 3rem;
+    }
+
+    a {
+      color: $pink-sass;
+    }
+    input {
+      padding: 0.5rem;
+    }
+  }
+}
